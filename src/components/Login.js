@@ -3,6 +3,7 @@ import './Login.css';
 import { Button } from 'reactstrap';
 
 const Login = ({ value, id, pw }) => {
+    id = "남코리";
     return (
         <div className="login">
             <div className="login-wrap">
