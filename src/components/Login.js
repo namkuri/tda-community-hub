@@ -3,7 +3,6 @@ import './Login.css';
 import { Button } from 'reactstrap';
 
 const Login = ({ value, id, pw }) => {
-    id = "남코리";
     return (
         <div className="login">
             <div className="login-wrap">
@@ -23,7 +22,7 @@ const Login = ({ value, id, pw }) => {
                             <input className="login-input" value={pw} type="password" />
                             <div className="input-checkbox">
                                 <input type="checkbox" />
-                                &nbsp;Keep me signed in
+                                &nbsp;Keep me signed in.
                                 </div>
                         </div>
                     </div>
