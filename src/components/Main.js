@@ -48,8 +48,11 @@ function PostList(props) {
 function Post(props) {
     return (
         <div className="Post-Box">
-            <PostList title="Hi" category="Cat1" author="Me" date="2019-12-25 23:42" />
-            <PostList title="Hello world" category="카테고리2" author="Namkyu" date="2019-12-25 23:45" />
+            <PostList title="TDA 커뮤헙 개발" category="TDA 프로젝트" author="나" date="2019-12-25 23:42" />
+            <PostList title="재무제표와 경영" category="교육" author="강성운" date="2019-12-25 23:45" />
+            <PostList title="게임 개발" category="블로그" author="우희성" date="2019-12-25 23:45" />
+            <PostList title="컨트롤러 레이아웃" category="컨트롤러 프로젝트" author="우형석" date="2019-12-25 23:45" />
+
         </div>
     )
 }
