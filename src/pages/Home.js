@@ -4,6 +4,8 @@ import Inbox from 'components/Inbox';
 import ProjectList from 'components/ProjectList';
 import MemberList from 'components/MemberList';
 import ContentBox from 'components/ContentBox';
+import { Link } from 'react-router-dom';
+
 import './Home.css';
 
 /*import { Button } from 'reactstrap';*/
@@ -32,6 +34,7 @@ function Home(props) {
                         <MemberList />
                     </ContentBox>
                 </div>
+                <Link to="/auth/login">(TEST)로그인 화면으로</Link>
             </div>
 
         </div>
