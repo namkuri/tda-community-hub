@@ -1,0 +1,40 @@
+
+.Member-box{
+    width: 200px;
+    height: 200px;
+    background: #005C79;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:16px;
+    margin-bottom:16px;
+    overflow: auto;    
+}
+.Member-status-list{
+    display:flex;
+    align-self:flex-start;
+    align-items: center;
+    margin-left:8px;
+}
+.Member-status-name{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+    margin-left:8px;
+}
+.Member-status-status{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16x;
+    line-height: 21px;
+
+    color: #ADADAD;
+    margin-left:8px;
+
+    text-align: right;
+}

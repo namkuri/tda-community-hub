@@ -1,0 +1,37 @@
+.Header-title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FF7575;
+}
+.Header{
+    padding-left:32px;
+    background-color: #404040;
+}
+.Header-Nav{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 16px;
+    min-width: 56px;
+
+    color: #98A4A7;;
+
+}
+.Header-Nav:hover{
+    color: #FFFFFF;
+}
+.Header-Nav.selected{
+    color: #FFFFFF;
+}
+.Nav-wrap{
+    display:flex;
+    align-content: center;
+    flex-direction: row;
+}

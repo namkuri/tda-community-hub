@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
-import Login from './components/Login';
-import Main from './components/Main';
-
+/*import Home from './components/Home';*/
+import { Link, Route, BrowserRouter as Router } from "react-router-dom";
+import { Home, Auth } from 'pages';
+import HeaderContainer from 'containers/Base/HeaderContainer';
 
 class App extends Component {
     render() {
         return (
-            /*<Login value="hi hello 안녕" />*/
-            <Main />
-
+            <div>
+                <HeaderContainer />
+                <Route exact path="/" component={Home} />
+                <Route path="/Auth" component={Auth} />
+            </div>
         );
     }
 }
