@@ -14,5 +14,5 @@ function AuthBottomWrapper(props) {
         </Wrapper>
     )
 }
-
+//test
 export default AuthBottomWrapper;
